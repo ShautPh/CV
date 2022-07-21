@@ -14,10 +14,10 @@ body {
 .container{
     background: #ffff;
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
     max-height: 1000px;
     margin:50px auto;
-    box-shadow: 2px 4px 8px 2px #dddd;
+    box-shadow: 0px 0px 8px 4px #dddd;
     display: grid;
     grid-template-columns: 1fr 2fr;
     
@@ -91,11 +91,27 @@ body {
     font-size: 18px;
     margin: 8px 0;
 }
-.container .left-side-bar .body-side .card .year{
-    margin-top: 10px
+.card .year{
+    margin-top: 14px
 }
-.container .left-side-bar .body-side .card .year h4{
+.year h4{
     color: #03a9f4;
 }
 .container .right-side-bar{
+    padding: 50px;
+    font-size: 14px;
+}  
+.container .right-side-bar h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 10px 0;
+    background-color: #dddd;
+    padding: 10px;
+    color: #03a9f4;
+}     
+.container .right-side-bar .profile  span{
+    color: #03a9f4;
+    /* margin-right: 60px; */
 }
