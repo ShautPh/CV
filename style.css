@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.container{
+    background: #ffff;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin:50px auto;
+    box-shadow: 2px 4px 8px 2px #dddd;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.container .left-side-bar{
+    position:relative;
+    background: #003147;
+    padding: 30px;
+    color: #ffff;
+}
+.head-side{
+    text-align: center;
+
+}
+.head-side .image{
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    margin: auto;
+    border-radius: 50%;
+}
+.head-side .image img{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.head-side .content h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    text-shadow: 2px 0px 1px #aaa;
+}
+.head-side .content h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top:8px;
+    letter-spacing: 2px;
+    color: #dddd;
+}
+.head-side hr{
+    margin-top: 8px;
+    color: #aaa;
+}
+.container .left-side-bar .body-side{
+    margin-top: 36px;
+    line-height: 30px;
+}
+.container .left-side-bar .body-side p{
+    font-size: 14px;
+}
+.container .left-side-bar .body-side .card{
+    margin-top: 20px;
+    line-height: 24px;
+}
+.container .left-side-bar .body-side .card ul li{
+   list-style: none;
+}
+.container .left-side-bar .body-side .card i{
+    color: #03a9f4;
+    margin-right: 8px;
+}
+.container .left-side-bar .body-side .card  span{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.container .left-side-bar .body-side .card h2{
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-size: 18px;
+    margin: 8px 0;
+}
+.container .left-side-bar .body-side .card .year{
+    margin-top: 10px
+}
+.container .left-side-bar .body-side .card .year h4{
+    color: #03a9f4;
+}
+.container .right-side-bar{
+}
